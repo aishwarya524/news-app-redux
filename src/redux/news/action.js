@@ -22,8 +22,8 @@ export const fetchNews = () => {
     return async (dispatch, getState ) => {
         try{
             dispatch(fetchNewsRequested())
-            let res = await axios.get('https://newsapi.org/v2/top-headlines?country=in&apiKey=8c19ce1efc664d64aa051402a419c774')
-            dispatch(fetchNewsSuccess(res.data.articles))
+            let res = await axios.get('https://newsdata.io/api/1/news?apikey=pub_1013144f00a3c112a004afaeb66cc00c9f287&q=olympics')
+            dispatch(fetchNewsSuccess(res.data.results))
         }
         catch(error){
             dispatch(fetchNewsError(error.message))

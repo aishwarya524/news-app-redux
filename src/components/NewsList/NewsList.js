@@ -24,7 +24,7 @@ const NewsList = () => {
         </Alert>) : (newsList.map((singleNews, index) => (
           <Col md={4} key={index} className="single-news">
             <Card style={{width: "18rem"}}>           
-                <Card.Img variant="top" src={singleNews.urlToImage ? singleNews.urlToImage : imageNotFound} />
+                <Card.Img variant="top" src={singleNews.image_url ? singleNews.image_url : imageNotFound} />
                 <Card.Body className="btn-wrapper">
                 <Card.Title>
                   {

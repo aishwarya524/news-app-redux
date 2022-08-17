@@ -18,11 +18,11 @@ const SingleNews = () => {
           <div className='single-title'>
             <h1>{singleNews.title}</h1>
           </div>
-          <img className='single-img' src={singleNews.urlToImage ? singleNews.urlToImage : imageNotFound} alt='singleImg'/>
+          <img className='single-img' src={singleNews.image_url ? singleNews.image_url : imageNotFound} alt='singleImg'/>
           <div className='single-description'>
             <h5>{singleNews.description}</h5>
           </div>
-          <Button variant='dark' href={singleNews.url}>View Source</Button>
+          <Button variant='dark' href={singleNews.link}>View Source</Button>
           </div>
         )
         }
