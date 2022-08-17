@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Container, Row, Col, Card, Button, Alert, Spinner} from 'react-bootstrap'
+import { Container, Row, Col, Card, Alert, Spinner} from 'react-bootstrap'
 import './NewsList.css'
 import imageNotFound from '../../assets/image-not-found.png'
 import { useEffect } from 'react'
