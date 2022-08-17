@@ -1,0 +1,20 @@
+.single-news .card-img-top{
+    height: 250px;
+}
+
+.single-news{
+    margin-top: 20px;
+}
+
+.single-news .card-title{
+    height: 72px;
+}
+
+.single-news .card-text{
+    height: 90px;
+}
+
+.spinner-wrapper{
+    margin: 50px;
+    text-align: center;
+}

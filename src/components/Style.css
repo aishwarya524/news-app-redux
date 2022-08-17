@@ -1,0 +1,17 @@
+.singlenews-wrapper{
+    text-align: center;
+    margin: 20px auto
+}
+
+.single-img{
+    width: 100ch;
+    max-height: 400px;
+}
+
+.about-wrapper{
+    text-align: center;
+}
+
+.contact-wrapper{
+    text-align: center;
+}
